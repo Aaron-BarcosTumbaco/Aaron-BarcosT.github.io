@@ -1,0 +1,82 @@
+body{
+    background: rgb(79,9,121);
+    background: linear-gradient(90deg, rgba(79,9,121,1) 10%, rgba(15,0,36,1) 50%, rgba(26,58,211,1) 90%);
+}
+
+#tit{
+    color: white;
+}
+
+.galeria_musica{
+    border: 2px solid lightgreen;
+    width: 1000px;
+    gap: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h3{
+    color: beige;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: purple;
+}
+
+.wrapper{
+    border: 3px solid wheat;
+    border-radius: 3%;
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.wrapper_t{
+    border: 3px solid red;
+    border-radius: 4%;
+    width: 970px;
+    height: auto;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 18px;
+}
+
+section{
+    padding-top: 5%;
+    display: flex;
+    width: 600px;
+    height: 300px;
+
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 80px;
+    opacity: 1;
+    filter: contrast(100%);
+
+}
